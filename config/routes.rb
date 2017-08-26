@@ -7,8 +7,10 @@ Rails.application.routes.draw do
   get  '/about',   to: 'pages#about'
   get  '/news', to: 'pages#news'
   get  '/login', to: 'pages#login'
-  get  '/signup',  to: 'users#new'
   get  '/help', to: 'pages#help'
+  get  '/signup',  to: 'users#new'
+  resources :users
+
 
 
 end
