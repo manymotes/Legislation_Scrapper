@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get  '/login', to: 'pages#login'
   get  '/help', to: 'pages#help'
   get  '/signup',  to: 'users#new'
+  post '/signup',  to: 'users#create'
   resources :users
 
 
