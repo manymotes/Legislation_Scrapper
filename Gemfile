@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.5'
 
-gem 'bootstrap-sass', '2.0.4.1'
+gem 'bootstrap-sass'
 
 gem 'bcrypt',         '3.1.11'
 #for procfile
